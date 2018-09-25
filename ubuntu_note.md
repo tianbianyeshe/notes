@@ -1,4 +1,4 @@
-# notes
+# ubuntu笔记
 
 ## 修改源
 ### 1.为conda添加国内镜像
