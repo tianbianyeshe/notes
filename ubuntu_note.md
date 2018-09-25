@@ -45,6 +45,30 @@ pip.conf文件编写如下内容：
 [global] 
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple 
 ```
+## 为ubuntu添加代理
+首先将ss的允许其他设备连入打开，然后ipconfig找到本地ip地址作为`yourhost_ip`
+1.export临时有效
+```bash
+export http_proxy=http://yourhost_ip:proxy_port
+#取消使用
+export http_proxy=""
+```
+2.apt.conf永久有效
+```bash
+sudo nano /etc/apt/apt.conf
+```
+加入以下内容
+```
+Acquire::http::Proxy "http://yourhost_ip:proxy_port";
+```
+3.bashrc文件中配置代理信息(apt-get,wget等等)全局有效
+```bash
+nano ~/.bashrc
+```
+添加以下内容
+```bash
+export http_proxy="http://yourhost_ip:proxy_port"
+```
 ## 小知识点
 1. ~：用户home目录
 2. /：系统根目录
