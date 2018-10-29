@@ -74,6 +74,13 @@ export http_proxy="http://yourhost_ip:proxy_port"
 ```bash
 sudo apt install dbus-x11
 ```
+
+## 使用ping
+
+```
+sudo apt-get install traceroute
+traceroute ***.com
+```
 ## 小知识点
 1. ~：用户home目录
 2. /：系统根目录
