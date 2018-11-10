@@ -10,7 +10,7 @@ add these to the file
 
 刷新systemd配置
 
-    systemctl daemon-realod
+    systemctl daemon-reload
 用系统命令验证环境变量加上去没：
 
     $ systemctl show --property=Environment docker
