@@ -62,3 +62,8 @@ firefox，curl等http应用需要polipo将http协议转换成socks5协议，才�
 在~/.bashrc中添加
 
     export http_proxy="http://127.0.0.1:17070" && export http_proxy="http://127.0.0.1:17070"
+    
+## 设置之后
+最好能执行一下
+    
+    apt update 
