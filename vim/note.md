@@ -1,9 +1,4 @@
-## vim 笔记放大
+## vim 笔记
 
-# fdsa
+	fd
 
-放fdasfs
-
-		fdass
-		fdsa
-		fasdfsdaf
