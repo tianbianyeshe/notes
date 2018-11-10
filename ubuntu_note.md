@@ -87,3 +87,5 @@ traceroute ***.com
 
 
 ## [lvm拍摄快照](ubuntu/lvm-snap.md)
+## [设置全局代理](ubuntu/daili.md)
+
