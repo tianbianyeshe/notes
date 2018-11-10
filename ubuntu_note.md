@@ -86,4 +86,4 @@ traceroute ***.com
 2. /：系统根目录
 
 
-## 
+## [lvm拍摄快照](ubuntu/lvm-snap.md)
