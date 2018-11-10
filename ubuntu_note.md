@@ -88,4 +88,6 @@ traceroute ***.com
 
 ## [lvm拍摄快照](ubuntu/lvm-snap.md)
 ## [设置全局代理](ubuntu/daili.md)
+## [为docker设置代理](ubuntu/docker-daili.md)
+
 
