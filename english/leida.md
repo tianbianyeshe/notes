@@ -1,6 +1,6 @@
 # 雷达电子论文中的单词/专业名词
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
+[InSar技术细节](https://blog.csdn.net/qiupingzhao/article/details/53038622)
 |**word**|**sentence of the word**|**meaning**|
 |:---|:---:|---:|
 |earth curvature|this is a simple of a long long long sentence. It has a very long long long long long longlong lenght |平地效应|
@@ -31,4 +31,4 @@
 |exit|Actually, above the rate of one fringe per pixel, we exit the interferometric domain, not because is of a difference of viewpoint.|出口|
 |domain||域|
 
-$$ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
