@@ -32,5 +32,5 @@
 |dense|Close to the rupture line, the fringes become too dense to beproperly read.|稠密|
 |exit|Actually, above the rate of one fringe per pixel, we exit the interferometric domain, not because is of a difference of viewpoint.|出口|
 |domain||域|
-
+|unfocused data||原始数据|
 
