@@ -81,9 +81,8 @@ sudo apt install dbus-x11
 sudo apt-get install traceroute
 traceroute ***.com
 ```
-## 小知识点
-1. ~：用户home目录
-2. /：系统根目录
+## [小知识点](ubuntu/knowledge.md)
+
 
 
 ## [lvm拍摄快照](ubuntu/lvm-snap.md)
