@@ -23,3 +23,14 @@ sudo apt-get -c ~/apt_proxy.conf update/install
 sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:1080/" update/install 
 ```
 
+7. start ssh 
+
+``` bash
+$ sudo /etc/init.d/ssh start
+
+OR
+$ sudo service ssh start
+
+# OR for systemd based Ubuntu Linux 16.04 LTS or above server:
+$ sudo systemctl start ssh 
+```
