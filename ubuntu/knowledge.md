@@ -8,3 +8,18 @@
   [or this](https://www.jianshu.com/p/cd4d604e0b44)
   
 5. [how to reset wsl's username and password](https://docs.microsoft.com/en-us/windows/wsl/user-support)
+
+6. apt-get 使用代理下载
+
+export http_proxy=""命令并不能影响apt-get命令。有三种方式：
+``` bash
+#1 修改/etc/apt/apt.conf
+Acquire::http::proxy "http://127.0.0.1:1080/";
+Acquire::ftp::proxy "ftp://127.0.0.1:1080/";
+Acquire::https::proxy "https://127.0.0.1:1080/";
+#2 新建一个 ~/apt_proxy.conf 加入上面内容
+sudo apt-get -c ~/apt_proxy.conf update/install
+#3 
+sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:1080/" update/install 
+```
+
