@@ -34,3 +34,18 @@ $ sudo service ssh start
 # OR for systemd based Ubuntu Linux 16.04 LTS or above server:
 $ sudo systemctl start ssh 
 ```
+
+8. copy file
+
+```bash
+$ cp [source] [target]
+
+
+```
+9. command list
+
+|utility|command|
+|-- | --|
+|move file \a to \b and rename as c| mv /a /b/c|
+|rename file| rename -v 's/strings/strings' *.nc|
+
