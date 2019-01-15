@@ -44,8 +44,10 @@ $ cp [source] [target]
 ```
 9. command list
 
-|utility|command|
-|-- | --|
-|move file \a to \b and rename as c| mv /a /b/c|
-|rename file| rename -v 's/strings/strings' *.nc|
+|utility|command|remarks|
+|-- | --| --|
+|move file \a to \b and rename as c| mv /a /b/c||
+|rename file| rename -v 's/strings/strings' *.nc||
+|create a new file|touch newfilename||
+|add contens into a file| touch "content">/>>filename|>will cover the old things,while >> will add to the end and add /n by default; -e can 启用转义字符; can also use vraible to simplify as file=123.txt use $file |
 
