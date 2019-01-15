@@ -58,7 +58,7 @@ firefox，curl等http应用需要polipo将http协议转换成socks5协议，才�
 在/etc/rc.local中的exit 0前添加
 
     sslocal -c /etc/shadowsocks.json -d start
-    server polipo start
+    service polipo start
 在~/.bashrc中添加
 
     export http_proxy="http://127.0.0.1:17070" && export http_proxy="http://127.0.0.1:17070"
