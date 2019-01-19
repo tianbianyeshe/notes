@@ -50,4 +50,5 @@ $ cp [source] [target]
 |rename file| rename -v 's/strings/strings' *.nc||
 |create a new file|touch newfilename||
 |add contens into a file| touch "content">/>>filename|>will cover the old things,while >> will add to the end and add /n by default; -e can 启用转义字符; can also use vraible to simplify as file=123.txt use $file |
-
+|search things in bash|$ cd / $ sudo find . -name '*cv2.so*'||
+|show or add contents of a file|cat [more details](https://www.tecmint.com/13-basic-cat-command-examples-in-linux/)|very useful|
